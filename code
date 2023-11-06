@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño y Modelado de Zapatillas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Nuestra Página de Diseño de Zapatillas</h1>
+        <p>Tu estilo, tus zapatillas</p>
+        <img src="/img/7476e4c824a80ff3ea7c048e5c2ea6de.jpg" alt="Zapatillas Personalizadas">
+        <a href="#servicios" class="btn">Nuestros Servicios</a>
+    </header>
+
+    <section id="servicios" class="section">
+        <h2>Nuestros Servicios</h2>
+        <div class="service">
+            <h3>Busque el modelo de su zapatilla</h3>
+            <p>Explore una amplia variedad de modelos de zapatillas de diferentes estilos, tallas y colores para encontrar la base perfecta para su diseño.</p>
+        </div>
+        <div class="service">
+            <h3>Inserte su zapatilla</h3>
+            <p>Cargue una imagen de sus zapatillas existentes para que podamos personalizarlas según sus preferencias de diseño.</p>
+        </div>
+        <div class="service">
+            <h3>Crear un diseño personalizado</h3>
+            <p>Utilice nuestra herramienta de diseño en línea para personalizar cada aspecto de sus zapatillas, desde los colores hasta los detalles.</p>
+        </div>
+        <div class="service">
+            <h3>Ver diseños recomendados por la app</h3>
+            <p>Obtenga inspiración viendo diseños recomendados por nuestra aplicación, o bien, cree su propia obra maestra.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>¿Listo para comenzar? Contáctenos para obtener más información.</p>
+        <div class="contact-box">
+            <form>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+                <input type="email" placeholder="Correo Electrónico">
+                <textarea placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <a href="mailto:info@zapatillaspersonalizadas.com" class="btn">Contáctenos</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Diseño de Zapatillas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
